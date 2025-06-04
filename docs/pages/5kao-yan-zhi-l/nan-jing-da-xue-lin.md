@@ -15,6 +15,7 @@
 
 我从2022年2月底就开始准备考研，经历了两年漫长的备考，早已被磨平了棱角，期间经历的喜怒哀乐也差不多忘却，忘记了很多事，也忘记了很多人，唯一坚定的信念是“我要上岸，我要读研，我要更好的自己”！让我感受最深的便是，考研真的很累，需要足够的勇气和毅力。在收到拟录取通知的那一刻，我终于如释重负。这两年付出的辛苦，在上岸南大的那一刻，值了！不过在奖励了自己一顿大餐以后，我又恢复了平静的生活。生命不息战斗不止，考研上岸也只是一个新的起点，而不是终点，我将把考研期间的热情继续投入到研究生学习中。
 <img src="https://picx.zhimg.com/50/v2-0696e55873bd74000754c9fdc471c633_720w.jpg?source=2c26e567" data-size="normal" data-rawwidth="1920" data-rawheight="647" data-original-token="v2-064d9331a8273dfdb1ebc1485c584bf6" data-default-watermark-src="https://pica.zhimg.com/50/v2-0b65a87904d0bdc05130262548cfd063_720w.jpg?source=2c26e567" class="origin_image zh-lightbox-thumb" width="1920" data-original="https://picx.zhimg.com/v2-0696e55873bd74000754c9fdc471c633_r.jpg?source=2c26e567"/>
+
 <div style="text-align: center;">初试成绩</div>
 
 <img src="https://picx.zhimg.com/50/v2-0640560b81d442e0e6b415691569e6eb_720w.jpg?source=2c26e567" data-size="normal" data-rawwidth="431" data-rawheight="410" data-original-token="v2-1759c986099e30be927e6e6f6b5e5e93" data-default-watermark-src="https://pica.zhimg.com/50/v2-ad9995ed5dc5350ddbc0901730a379c4_720w.jpg?source=2c26e567" class="origin_image zh-lightbox-thumb" width="431" data-original="https://picx.zhimg.com/v2-0640560b81d442e0e6b415691569e6eb_r.jpg?source=2c26e567"/>
