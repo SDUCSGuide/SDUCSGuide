@@ -11,48 +11,48 @@ sidebar: false
 - 更新或撰写某个主题的指南，分享自己的经历
 - 修正错别字、术语错误、逻辑不清
 - 添加实用资源、推荐书籍、网站、工具等
-- 提出建议、反馈问题、审阅PR、参与维护
+- 提出建议、反馈问题、审阅 PR、参与维护
 
 ### 分享方式
 
 分享经历、修正内容、增添内容请遵循以下方式（实名和匿名均可）：
 
-- 如果你比较熟悉`github`，可以采用下面两种方式，这两种方式更新可以在项目仓库贡献者列表显示，但请**注意**：不要直接在仓库中提交非Markdown文件（Markdown文件用到的资源除外，如图片等）
-  - 直接在`github`网页上进行编辑，上传你的文件，内容审核后会自动部署到你现在看到的这个网站上。
-  - Fork 本仓库，clone 到本地，修改，发起 PR（**强烈推荐！**）
+- 如果你比较熟悉 `github`，可以采用下面两种方式，这两种方式更新可以在项目仓库贡献者列表显示，但请 ** 注意 **：不要直接在仓库中提交非 Markdown 文件（Markdown 文件用到的资源除外，如图片等）
+  - 直接在 `github` 网页上进行编辑，上传你的文件，内容审核后会自动部署到你现在看到的这个网站上。
+  - Fork 本仓库，clone 到本地，修改，发起 PR（** 强烈推荐！**）
   - 这两种方式详细步骤见下方说明。
-- 如果你不熟悉`github`，可以将你提供的内容发送到邮箱： sducsguide@163.com，我们会为你上传。建议用Markdown（`.md`后缀）文件，使用其他文件也可，最好不要发送pdf格式的文件。
+- 如果你不熟悉 `github`，可以将你提供的内容发送到邮箱： sducsguide@163.com，我们会为你上传。建议用 Markdown（`.md` 后缀）文件，使用其他文件也可，最好不要发送 pdf 格式的文件。
 
-这份指南的所有页面都采用Markdown撰写。它的格式不需要刻意排版就可以变为你现在看到的这样，如果你还不了解它，点击这里学习一下它的用法。[Markdown基本用法](https://markdown.com.cn/basic-syntax/)
+这份指南的所有页面都采用 Markdown 撰写。它的格式不需要刻意排版就可以变为你现在看到的这样，如果你还不了解它，点击这里学习一下它的用法。[Markdown 基本用法](https://markdown.com.cn/basic-syntax/)
 
-本指南通过`VitePress`搭建，部署到`github pages`上，所以同样支持一些扩展的Markdown语法，如果你想使用这些语法或了解`VitePress`可以参考这两份手册：[Markdown扩展语法](https://vitepress.dev/zh/guide/markdown)、[VitePress使用手册](https://vitepress.dev/zh/)
+本指南通过 `VitePress` 搭建，部署到 `github pages` 上，所以同样支持一些扩展的 Markdown 语法，如果你想使用这些语法或了解 `VitePress` 可以参考这两份手册：[Markdown 扩展语法](https://vitepress.dev/zh/guide/markdown)、[VitePress 使用手册](https://vitepress.dev/zh/)
 
-#### 本地编辑，git上传（强烈推荐）
+#### 本地编辑，git 上传（强烈推荐）
 
-这里假定你已经能够使用`github`以及`git`工具，如果你不了解想要学习可以去网上查找资料或询问AI。
+这里假定你已经能够使用 `github` 以及 `git` 工具，如果你不了解想要学习可以去网上查找资料或询问 AI。
 
-1. 点击此处[Fork](https://github.com/SDUCSGuide/SDUCSGuide/fork)我们的仓库
-2. `clone`仓库到你的本地
-3. 创建新分支作存储你修改后的内容：`git checkout -b feat/你的修改描述及名字(支持匿名)`，例如`git checkout -b feat/update-logistics-section-by-sdu`。`feat/XXX`这一段信息是你创建的分支名，当你后面进行`push`操作时要保证二者一致，所以最好设置地简单一些。
-4. 在代码对应的版块添加你要上传的文件(`.md`)或进行你想要的修改，所有文档均位于`/docs/pages`路径下
-5. 提交修改并且push到你的仓库(这里`origin`是不需要手动设置的，克隆之后会自动设置为你自己的`fork`仓库)
+1. 点击此处 [Fork](https://github.com/SDUCSGuide/SDUCSGuide/fork) 我们的仓库
+2. `clone` 仓库到你的本地
+3. 创建新分支作存储你修改后的内容：`git checkout -b feat / 你的修改描述及名字 (支持匿名)`，例如 `git checkout -b feat/update-logistics-section-by-sdu`。`feat/XXX` 这一段信息是你创建的分支名，当你后面进行 `push` 操作时要保证二者一致，所以最好设置地简单一些。
+4. 在代码对应的版块添加你要上传的文件 (`.md`) 或进行你想要的修改，所有文档均位于 `/docs/pages` 路径下
+5. 提交修改并且 push 到你的仓库 (这里 `origin` 是不需要手动设置的，克隆之后会自动设置为你自己的 `fork` 仓库)
 
 ```
 git add .
 git commit -m "something"
-git push origin feat/你的修改描述以及名字(可以匿名)
+git push origin feat / 你的修改描述以及名字 (可以匿名)
 ```
 
-6. 打开你的`github`仓库的`fork`仓库页面，看到一个绿色按钮`Compare & pull request`，点击它进行PR，记得填写PR说明，简要说明你的修改，最后提交PR
-7. 等待审核完毕后，你的更新就会被发表，这种方式更新，你会进入`github`仓库的贡献者列表。
+6. 打开你的 `github` 仓库的 `fork` 仓库页面，看到一个绿色按钮 `Compare & pull request`，点击它进行 PR，记得填写 PR 说明，简要说明你的修改，最后提交 PR
+7. 等待审核完毕后，你的更新就会被发表，这种方式更新，你会进入 `github` 仓库的贡献者列表。
 
-#### 直接编辑github页面
+#### 直接编辑 github 页面
 
-1. 访问[仓库](https://github.com/SDUCSGuide/SDUCSGuide)并直接进入你分享内容所在文件夹，所有文档均在`/docs/pages`这一路径下，找到你要访问的对应版块
-2. 点击右上角的`Add file`上传你已经写好的文件
-3. 选择`Commit changes`，并在其中的`commit message`中概括你的更改
-4. 点击`Propose changes`，记得描述一下你的内容，确保侧边栏中的 `Allow edits from maintainers` 被勾选。
-5. 点击`Create pull request`。至此即可成功编辑，等待审核完成即可发布
+1. 访问 [仓库](https://github.com/SDUCSGuide/SDUCSGuide) 并直接进入你分享内容所在文件夹，所有文档均在 `/docs/pages` 这一路径下，找到你要访问的对应版块
+2. 点击右上角的 `Add file` 上传你已经写好的文件
+3. 选择 `Commit changes`，并在其中的 `commit message` 中概括你的更改
+4. 点击 `Propose changes`，记得描述一下你的内容，确保侧边栏中的 `Allow edits from maintainers` 被勾选。
+5. 点击 `Create pull request`。至此即可成功编辑，等待审核完成即可发布
 
 ### 更新规则
 
@@ -60,17 +60,17 @@ git push origin feat/你的修改描述以及名字(可以匿名)
 
 #### 文件增删改
 
-Markdown文件的第一个一级标题会作为目录中的标题进行展示。如果要在标题添加`emoji`建议添加到开头，方便整理。
+Markdown 文件的第一个一级标题会作为目录中的标题进行展示。如果要在标题添加 `emoji` 建议添加到开头，方便整理。
 
-如果你提交的Markdown文件中含有图片等资源，且你的图片存放在本地，那么记得编辑好Markdown中图片的路径。可以直接用`VScode`编辑，这样方便编辑路径和管理文档，如果觉得源代码格式不便捷，可以点击右上角的`侧边预览`在预览下编辑。
+如果你提交的 Markdown 文件中含有图片等资源，且你的图片存放在本地，那么记得编辑好 Markdown 中图片的路径。可以直接用 `VScode` 编辑，这样方便编辑路径和管理文档，如果觉得源代码格式不便捷，可以点击右上角的 `侧边预览` 在预览下编辑。
 
-路径采用从当前文件夹使用相对地址的格式，图片上传到`/docs/assets`文件夹下。例如你要在`/docs/pages/1sheng-cun-gong-le`这个文件夹下添加内容，那么你引用的图片的地址应该写作`../../assets/citedPage.png`，其中`citedPage.png`是图片的名称。
+路径采用从当前文件夹使用相对地址的格式，图片上传到 `/docs/assets` 文件夹下。例如你要在 `/docs/pages/1sheng-cun-gong-le` 这个文件夹下添加内容，那么你引用的图片的地址应该写作 `../../assets/citedPage.png`，其中 `citedPage.png` 是图片的名称。
 
 如果你不知道如何编辑，可以直接上传，我们会帮你整理好格式。后面会更新一个自动维护这个地址的脚本，前面大家弄不好可以直接告诉我们，我们会帮你整理。但还是希望大家规范格式，减少工作量。
 
 #### 版块添加
 
-如果你要创建新的版块，就要创建一个新的文件夹，并在文件夹下创建`README.md`文件，在其中描述版块的内容和主题，版块内容同样放在文件夹下，如果你上传了图片，同样参考上面的方式。上传后脚本会自动添加版块并更新你上传的内容。新建版块参考如下目录结构：
+如果你要创建新的版块，就要创建一个新的文件夹，并在文件夹下创建 `README.md` 文件，在其中描述版块的内容和主题，版块内容同样放在文件夹下，如果你上传了图片，同样参考上面的方式。上传后脚本会自动添加版块并更新你上传的内容。新建版块参考如下目录结构：
 
 ```
 fileFolderName
@@ -79,14 +79,14 @@ fileFolderName
 └── README.md
 ```
 
-如果你采用的`Fork-clone-PR`方式，将文件夹添加到`/docs/pages`里或者其中已有版块文件夹下并提交。否则将其打包后连带资源文件一并发送至我们的联系邮箱即可。
+如果你采用的 `Fork-clone-PR` 方式，将文件夹添加到 `/docs/pages` 里或者其中已有版块文件夹下并提交。否则将其打包后连带资源文件一并发送至我们的联系邮箱即可。
 
 ### 遇到问题？
 
-在项目页面点击`Issues`提交问题，目前有两种模板可用，一个用于提交bug,一个用于提出建议，请根据具体情况进行提交。
+在项目页面点击 `Issues` 提交问题，目前有两种模板可用，一个用于提交 bug, 一个用于提出建议，请根据具体情况进行提交。
 
 我们一定会认真听取大家的建议，并及时解决大家遇到的问题，将这份指南做得更好。
 
 ### 参与维护，参与审核
 
-非常希望有更多了解`VitePress`相关的技术（比如`CSS`、`Vue`等）的同学加入我们，同我们一起维护这个项目。如果你想加入我们，直接发送邮件到我们的邮箱即可。
+非常希望有更多了解 `VitePress` 相关的技术（比如 `CSS`、`Vue` 等）的同学加入我们，同我们一起维护这个项目。如果你想加入我们，直接发送邮件到我们的邮箱即可。
