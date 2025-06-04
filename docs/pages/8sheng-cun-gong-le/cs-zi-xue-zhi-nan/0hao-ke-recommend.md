@@ -2,6 +2,27 @@
 
 这个页面大家可以推荐一些自己学过的优秀课程，如有补充，欢迎按照贡献指南来进行补充。如果要详细介绍请直接在自学指南版块下添加新的帖子。
 
+## 相关专业课
+### 0、导学课
+计算机教育中缺失的一课（相关工具讲解，在大二左右的实验课很有用，建议较早学习）
+https://missing-semester-cn.github.io/
+
+### 1、c语言
+浙大翁凯，b站视频：
+https://www.bilibili.com/video/BV1dr4y1n7vA/
+
+### 2、操作系统
+MIT公开课操作系统，6s081，b站视频
+https://www.bilibili.com/video/BV1rS4y1n7y1/
+
+### 3、编译原理
+斯坦福公开课，cs143，b站视频
+https://www.bilibili.com/video/BV1b41hYREg7/
+
+### 4、计算机图形学
+games101，闫令琪的课，很不错
+https://www.bilibili.com/video/BV1X7411F744/
+
 ## 数学
 
 1. B站宋浩老师讲课简单易懂，伟大无需多言，所有数学课都有

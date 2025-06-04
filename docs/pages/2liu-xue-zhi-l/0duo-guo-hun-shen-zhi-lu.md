@@ -16,7 +16,7 @@
 
 ### **不同国家项目选择及Bar：🎯**
 
-具体到各地区、各学校、各项目的录取门槛，实在是难以一概而论。在此，我推荐几个信息比较全面的网站：[**OpenCS**](https://opencs.app/) ， [**GlobalCS**](https://global-cs-application.github.io/Program/search/) **，**[**寄托天下**](https://gter.net/)和[**一亩三分地**](https://www.1point3acres.com/)。它们对不同地区的项目bar做了相对清晰的分类，并提供了一些录取案例作为参考。但注意这类网站也有着一些滞后性。
+具体到各地区、各学校、各项目的录取门槛，实在是难以一概而论。在此，我推荐几个信息比较全面的网站：[**OpenCS**](https://opencs.app/) ， [**GlobalCS**](https://global-cs-application.github.io/Program/search/) ，[**寄托天下**](https://gter.net/)和[**一亩三分地**](https://www.1point3acres.com/)。它们对不同地区的项目bar做了相对清晰的分类，并提供了一些录取案例作为参考。但注意这类网站也有着一些滞后性。
 
 需要注意的是，大量**小众项目**的录取bar每年都在剧烈波动。例如，巴黎理工学院的 DataAi 项目，过去曾有双非背景的同学被录取，但在今年（截至我写这篇文章时），除我之外，已知的四五位录取者全部来自华五以上高校，甚至北邮90分加科研背景的同学也未被录取。面对这类“录取玄学”项目，建议务必搭配港新等相对稳妥的保底项目。
 
