@@ -1,4 +1,4 @@
-<img src="../../assets/ 微信图片_20250512192554.jpg" style="width: 100%; border-radius: 12px;" />
+<img src="../../assets/微信图片_20250512192554.jpg" style="width: 100%; border-radius: 12px;" />
 
 # IIC 科研经历
 
