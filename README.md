@@ -11,9 +11,6 @@
     [访问 SDUCS 本科指南](https://sducsguide.github.io/SDUCSGuide/)
   </p>
 
-
-
-
   <p>
     <img
       alt="contributors"

@@ -12,5 +12,5 @@
 
 ### 论文撰写
 
-- [IIC科研经历](iic-ke-yan-jing-li.md)
+- [IIC 科研经历](iic-ke-yan-jing-li.md)
 - [科研思考](ke-yan-si-kao.md)

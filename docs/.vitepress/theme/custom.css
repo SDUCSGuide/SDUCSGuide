@@ -1,25 +1,25 @@
 /* 默认折叠状态 */
 .VPSidebarItem .items {
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    transition:
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition:
     max-height 0.5s ease,
     opacity 0.4s ease,
     padding 0.4s ease;
-    will-change: max-height, opacity, padding;
-    display: block !important;
-  }
-  
-  /* 展开时 */
-  .VPSidebarItem:not(.collapsed) > .items {
-    /* background-color: var(--vp-c-bg-alt); */
-    opacity: 1;
-  }
+  will-change: max-height, opacity, padding;
+  display: block !important;
+}
 
-  /* .caret-icon {
+/* 展开时 */
+.VPSidebarItem:not(.collapsed) > .items {
+  /* background-color: var(--vp-c-bg-alt); */
+  opacity: 1;
+}
+
+/* .caret-icon {
     transition: transform 0.3s ease;
     transform: rotate(0deg);
   }
@@ -31,4 +31,3 @@
   .VPSidebarItem:not(.collapsed) > .item > .caret-icon {
     transform: rotate(90deg);
   } */
-  

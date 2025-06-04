@@ -78,13 +78,10 @@ danger：用于错误信息（如红色错误框）。
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(
     120deg,
-    #9c0c13 20%,     /* SDU 校色：深枣红 */
-    #5e5bd9 45%,    /* 按钮主色：蓝紫过渡 */
-    #a8e2ff 100%    /* 淡蓝银尾：高级感收尾 */
+    #9c0c13 20%,
+    /* SDU 校色：深枣红 */ #5e5bd9 45%,
+    /* 按钮主色：蓝紫过渡 */ #a8e2ff 100% /* 淡蓝银尾：高级感收尾 */
   );
-  
-  
-
 
   --vp-home-hero-image-background-image: none;
   --vp-home-hero-image-filter: blur(44px);
@@ -126,13 +123,13 @@ danger：用于错误信息（如红色错误框）。
 }
 
 /* 调整侧边栏目录字体大小*/
-.VPSidebar .text{
-  font-size: 16px !important; 
+.VPSidebar .text {
+  font-size: 16px !important;
   font-weight: 400 !important;
 }
 
 /*缩小侧边栏文字到板块底部距离*/
-.VPSidebar .group{
+.VPSidebar .group {
   /* padding-bottom:0.375rem !important;
   padding-top: 0.375rem !important; 
   padding-left: 0.375rem !important; 
@@ -142,13 +139,13 @@ danger：用于错误信息（如红色错误框）。
   box-shadow: none !important;
 }
 /*缩小侧边栏文字到板块底部距离*/
-.VPSidebar .collapsible{
+.VPSidebar .collapsible {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
-.VPSidebarItem{
-  padding-bottom:0px !important;
-  padding-top: 0px !important; 
+.VPSidebarItem {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 /* 整体侧边栏不能选中 */
 .VPSidebar {
@@ -169,12 +166,12 @@ html {
 /* 侧边栏菜单悬停变灰背景 */
 /* 让 item 撑满整行并 hover 时整块变灰 */
 .VPSidebarItem .item {
-  display: flex;               /* 像 GitBook 那样用 flex 横向排布 */
+  display: flex; /* 像 GitBook 那样用 flex 横向排布 */
   align-items: center;
   justify-content: space-between;
-  padding-left: 0.375rem ;
+  padding-left: 0.375rem;
   padding-right: 0.375rem;
-  width: 100%;                 /* 撑满整个导航宽度 */
+  width: 100%; /* 撑满整个导航宽度 */
   border-radius: 8px;
   text-decoration: none;
   color: inherit;
@@ -189,27 +186,13 @@ html.dark .VPSidebarItem .item:hover {
   background-color: #4b4b4b;
 }
 
-.title{
+.title {
   border-bottom: 0px solid !important;
 }
 
 /* 给第一级子项添加左侧竖线 */
 .VPSidebarItem .items {
   border-left: 1px solid var(--vp-c-divider); /* 竖线颜色和粗细 */
-  margin-left: 6px !important;              /* 缩进使竖线不贴太近 */
-  padding-left: 8px !important;              /* 子项与竖线之间的间距 */
+  margin-left: 6px !important; /* 缩进使竖线不贴太近 */
+  padding-left: 8px !important; /* 子项与竖线之间的间距 */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
