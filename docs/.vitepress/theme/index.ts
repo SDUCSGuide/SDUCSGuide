@@ -6,6 +6,7 @@ import './my-fonts.css'
 import { onMounted } from "vue";
 import "./custom.css";
 import "./style.css";
+import googleAnalytics from 'vitepress-plugin-google-analytics'
 
 const boundItems = new WeakSet();
 
@@ -17,6 +18,9 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
+    googleAnalytics({
+      id: 'G-LHRV52L0X7', //跟踪ID，在analytics.google.com注册即可
+    })
     if (typeof window !== "undefined") {
       waitForSidebarItems();
     }
