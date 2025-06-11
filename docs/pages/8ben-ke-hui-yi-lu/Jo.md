@@ -4,7 +4,7 @@
   title="美好的事情可不可以发生在我身上" 
   artist="康士坦的变化球" 
   cover="../../assets/3410537.jpg" 
-  musicSrc="/SDUCSGuide/assets/M5000000kheLh0RDWNH.mp3" 
+  musicSrc="/SDUCSGuide/assets/M500000kheLh0RDWNH.mp3" 
   :style="{ width: '320px', margin: '20px auto' }" 
 />
 
