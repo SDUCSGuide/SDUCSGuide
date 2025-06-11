@@ -2,6 +2,7 @@
   "devDependencies": {
     "vite": "^6.3.5",
     "vitepress": "^1.6.3",
+    "vitepress-plugin-awesome-musicplayer": "^1.0.4",
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "scripts": {

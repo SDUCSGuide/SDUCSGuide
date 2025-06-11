@@ -7,6 +7,7 @@ import { onMounted } from "vue";
 import "./custom.css";
 import "./style.css";
 import googleAnalytics from 'vitepress-plugin-google-analytics'
+import NotionStyleMusicPlayer from './components/NotionStyleMusicPlayer.vue'
 
 const boundItems = new WeakSet();
 
@@ -18,6 +19,7 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('NotionStyleMusicPlayer', NotionStyleMusicPlayer)
     googleAnalytics({
       id: 'G-LHRV52L0X7', //跟踪ID，在analytics.google.com注册即可
     })
