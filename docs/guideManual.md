@@ -2,6 +2,55 @@
 
 这里是指南的技术手册，主要涉及指南目前采用的技术内容，欢迎指正我们的错误和补充优秀内容
 
+## 结构
+
+指南的文件为以下结构
+```
+.
+├── docs                    文档主目录
+|   ├──.vitepress           VitePress 的配置目录
+│   ├── assets              文档用到的图片文件
+│   ├── CONTRIBUTORS.md     脚本生成的中间文件，为贡献者列表
+│   ├── geCon.js            生成贡献者列表的脚本
+│   ├── guideManual.md      本技术手册
+│   ├── index.md            主页内容
+│   ├── join.md             贡献指南
+│   ├── pages               所有文档
+│   └── public              打包后复制到跟路径的资源文件
+├── node_modules            通过 npm 安装的依赖包
+├── package.json            项目配置和依赖声明
+├── package-lock.json       锁定项目依赖的具体版本
+└── README.md               github 的 README 界面
+```
+
+修改的配置都存于`.vitepress`文件夹中，因此再介绍下这个文件夹的内容
+```
+.
+├── cache
+├── config.mts    主配置文件，定义网站的导航栏、侧边栏、logo、语言、主题
+├── generateSidebar.js      根据文件的标题自动生成侧边栏脚本
+├── plugins                 插件（目前无）
+└── theme                   基于官方主题的配置文件
+    ├── components          自定义 vue 组件
+    ├── custom.css          自定义 CSS 样式
+    ├── index.ts            主题主入口，注册组件、样式
+    ├── my-fonts.css        字体配置
+    └── style.css           CSS 样式默认配置
+```
+
+
+## 已有的优化工作
+
+- 更流畅的侧边栏展开动画与更美观的选中效果，在`index.ts`文件中借助`waitForSidebarItems()`函数为侧边栏附加展开事件，使得自动展开需要的高度，动画和样式借助`custom.css`和`style.css`进行调整
+
+- 加入了自动生成侧边栏的脚本，可以根据每个文档标题生成左侧目录中的名称
+
+- 借助 `github token` 获取贡献者列表来及时更新贡献者名单
+
+- 格式化文档内容和代码
+
+- 固定右侧滚动条防止页面跳动
+
 ## 本地运行 `VitePress` 进行开发
 
 进入 `docs` 文件夹，执行命令 `npm run docs: dev`，如果缺少相关依赖，可以执行 `npm install` 或 `npm install --dev` 进行安装。运行起来之后进入本地的站点就可以访问
@@ -45,8 +94,6 @@
 -   借助 `pangu` 脚本自动应用中英文格式化
 -   统一资源文件命名格式
 -   路由重写
--   各板块命名规范
--   公开文档/问卷征求意见？
 -   优化贡献者列表
 -   设置图片路径的脚本
 -   现有脚本的整理
