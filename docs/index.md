@@ -175,6 +175,7 @@ features:
 
 ## 友情链接
 
+- ShareSDU https://sharesdu.com/
 - 山东大学计算机科学与技术学院 https://www.cs.sdu.edu.cn/
 - SDUOJ https://oj.qd.sdu.edu.cn/v2/home
 - 山东大学ACM实验室 https://space.bilibili.com/488809409

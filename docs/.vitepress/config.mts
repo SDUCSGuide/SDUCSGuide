@@ -22,10 +22,16 @@ export default defineConfig({
       { text: "贡献指南", link: "/join" },
       // { text: "技术手册", link: "/guideManual" },
       {
+        text: "ShareSDU",
+        link: "https://sharesdu.com",
+        target: "_blank",
+      },
+      {
         text: "GitHub",
         link: "https://github.com/SDUCSGuide/SDUCSGuide.git",
         target: "_blank",
       },
+      
     ],
     outline: {
       level: [1, 4], // 显示 ##、###、#### 标题
