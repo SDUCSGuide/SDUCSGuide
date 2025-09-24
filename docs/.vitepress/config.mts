@@ -20,11 +20,7 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "启程", link: "/pages/0qian-yan/README" },
       { text: "贡献指南", link: "/join" },
-<<<<<<< HEAD
-      // { text: "技术手册", link: "/guideManual" },
-=======
       { text: "技术手册", link: "/guideManual" },
->>>>>>> 579b4c8 (update_index_image)
       {
         text: "ShareSDU",
         link: "https://sharesdu.com",
