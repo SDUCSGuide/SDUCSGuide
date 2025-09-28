@@ -32,7 +32,7 @@
 
 先说下我初试的情况吧。我考的是11408。总分386。具体分数如下：
 
-![img](file:///C:\Users\zhangshuai\AppData\Local\Temp\ksohtml24948\wps1.jpg) 
+<figure><img src="../../assets/njucschushi.png" alt=""><figcaption><p>初试分数</p></figcaption></figure>
 
 ##### 408
 
