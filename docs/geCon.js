@@ -61,8 +61,7 @@ const generateAvatarHTML = (contributor) => {
   const { name, avatar, link } = contributor;
   const imgTag = `<img src="${avatar}" alt="${name}" style="width: ${CONFIG.AVATAR_SIZE}px; height: ${CONFIG.AVATAR_SIZE}px; border-radius: 50%;"/>`;
   
-  return `
-<div style="margin: 2px;">
+  return `<div style="margin: 2px;">
   ${link ? `<a href="${link}">` : '<a>'}
     ${imgTag}
   </a>
