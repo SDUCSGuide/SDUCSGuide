@@ -103,13 +103,13 @@ features:
   </a>
 </div>
 <div style="margin: 2px;">
-  <a href="https://github.com/yao-wu-yang">
-    <img src="https://avatars.githubusercontent.com/u/115643176?v=4" alt="yao-wu-yang" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  <a href="https://github.com/apps/github-actions">
+    <img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div>
 <div style="margin: 2px;">
-  <a href="https://github.com/apps/github-actions">
-    <img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  <a href="https://github.com/yao-wu-yang">
+    <img src="https://avatars.githubusercontent.com/u/115643176?v=4" alt="yao-wu-yang" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div>
 <div style="margin: 2px;">
