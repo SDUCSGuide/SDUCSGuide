@@ -46,7 +46,9 @@ features:
 
 ### **参与共建**
 
-我们欢迎各种形式的贡献！
+我们欢迎各种形式的贡献！如果指南对你有帮助，不妨给个仓库点个 Star：[![GitHub stars](https://img.shields.io/github/stars/SDUCSGuide/SDUCSGuide?style=flat&logo=github&color=yellow)](https://github.com/SDUCSGuide/SDUCSGuide)
+
+
 
 - **反馈建议**：请在 [Issues](https://github.com/SDUCSGuide/SDUCSGuide/issues) 提出。
 
