@@ -98,6 +98,10 @@ features:
     <img src="https://avatars.githubusercontent.com/u/115643176?v=4" alt="yao-wu-yang" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div><div style="margin: 2px;">
+  <a href="https://github.com/apps/github-actions">
+    <img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  </a>
+</div><div style="margin: 2px;">
   <a href="https://github.com/yanyao14">
     <img src="https://avatars.githubusercontent.com/u/95868242?v=4" alt="yanyao14" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
@@ -108,10 +112,6 @@ features:
 </div><div style="margin: 2px;">
   <a href="https://github.com/lalayouyi">
     <img src="https://avatars.githubusercontent.com/u/93507387?v=4" alt="lalayouyi" style="width: 50px; height: 50px; border-radius: 50%;"/>
-  </a>
-</div><div style="margin: 2px;">
-  <a href="https://github.com/apps/github-actions">
-    <img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div><div style="margin: 2px;">
   <a href="https://github.com/SuperGoodGame">
@@ -175,6 +175,7 @@ features:
   </a>
 </div>
 </div>
+
 
 
 
