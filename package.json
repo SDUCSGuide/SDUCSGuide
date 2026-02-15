@@ -14,7 +14,7 @@
   "dependencies": {
     "@iminu/vitepress-plugin-auto-sidebar": "^1.0.3",
     "@types/cheerio": "^0.22.35",
-    "axios": "^1.9.0",
+    "axios": "^1.13.5",
     "cheerio": "^1.0.0",
     "pangu": "^4.0.7"
   }

@@ -1,0 +1,54 @@
+name: Update Contributors
+
+on:
+  # 每周自动运行一次
+  schedule:
+    - cron: '0 0 * * 0'  # 每周日 00:00 UTC
+  
+  # 手动触发
+  workflow_dispatch:
+  
+  # 当有新的 PR 合并到 main 时触发
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write  # 必须添加！允许工作流提交更改
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm ci  # 使用 ci 而不是 install，更快更可靠
+      
+      - name: Generate contributors
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node docs/geCon.js
+      
+      - name: Check for changes
+        id: verify_diff
+        run: |
+          git diff --quiet docs/CONTRIBUTORS.md docs/index.md || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/CONTRIBUTORS.md docs/index.md
+          git commit -m "chore: 🤖 auto-update contributors list [skip ci]"
+          git push
