@@ -93,6 +93,11 @@ features:
   </a>
 </div>
 <div style="margin: 2px;">
+  <a href="https://github.com/apps/github-actions">
+    <img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  </a>
+</div>
+<div style="margin: 2px;">
   <a href="https://github.com/ESFJ-MoZhu">
     <img src="https://avatars.githubusercontent.com/u/139056883?v=4" alt="ESFJ-MoZhu" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
@@ -100,11 +105,6 @@ features:
 <div style="margin: 2px;">
   <a href="https://github.com/Mowalen">
     <img src="https://avatars.githubusercontent.com/u/88531871?v=4" alt="Mowalen" style="width: 50px; height: 50px; border-radius: 50%;"/>
-  </a>
-</div>
-<div style="margin: 2px;">
-  <a href="https://github.com/apps/github-actions">
-    <img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div>
 <div style="margin: 2px;">
