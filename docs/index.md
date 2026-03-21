@@ -158,6 +158,11 @@ features:
   </a>
 </div>
 <div style="margin: 2px;">
+  <a href="https://github.com/Choimoe">
+    <img src="https://avatars.githubusercontent.com/u/74962162?v=4" alt="Choimoe" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  </a>
+</div>
+<div style="margin: 2px;">
   <a href="https://github.com/haoma2772">
     <img src="https://avatars.githubusercontent.com/u/94169263?v=4" alt="haoma2772" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
