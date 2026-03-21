@@ -6,7 +6,7 @@
   >
 
   <h1 align="center"> SDUCS本科指南 </h1>
-  [访问指南] (https://sducsguide.github.io/SDUCSGuide/)
+  [访问指南](https://sducsguide.github.io/SDUCSGuide/)
 
 
 
