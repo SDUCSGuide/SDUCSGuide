@@ -153,13 +153,13 @@ features:
   </a>
 </div>
 <div style="margin: 2px;">
-  <a href="https://github.com/Arshtyi">
-    <img src="https://avatars.githubusercontent.com/u/140566610?v=4" alt="Arshtyi" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  <a href="https://github.com/Choimoe">
+    <img src="https://avatars.githubusercontent.com/u/74962162?v=4" alt="Choimoe" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div>
 <div style="margin: 2px;">
-  <a href="https://github.com/Choimoe">
-    <img src="https://avatars.githubusercontent.com/u/74962162?v=4" alt="Choimoe" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  <a href="https://github.com/Arshtyi">
+    <img src="https://avatars.githubusercontent.com/u/140566610?v=4" alt="Arshtyi" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div>
 <div style="margin: 2px;">
