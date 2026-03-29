@@ -158,8 +158,8 @@ features:
   </a>
 </div>
 <div style="margin: 2px;">
-  <a href="https://github.com/Arshtyi">
-    <img src="https://avatars.githubusercontent.com/u/140566610?v=4" alt="Arshtyi" style="width: 50px; height: 50px; border-radius: 50%;"/>
+  <a href="https://github.com/arshtyi">
+    <img src="https://avatars.githubusercontent.com/u/140566610?v=4" alt="arshtyi" style="width: 50px; height: 50px; border-radius: 50%;"/>
   </a>
 </div>
 <div style="margin: 2px;">
